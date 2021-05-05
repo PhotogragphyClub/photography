@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<link rel="stylesheet" href="mystylesheet.css">
+
+<title>Contact Us</title>
+
+<style>
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+  }
+  
+  textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  }
+  
+input[type=submit] {
+background-color: #00BFFF;
+color: white;
+padding: 16px 32px;
+border-radius: 50%
+}
+
+
+
+</style>
+
+
+	</head>
+	
+<body>
+<!-- Contact Us -->
+<div>
+<h1> Contact Us </h1>
+<h2> We'd love to help, or feel free to say hello! </h2>
+
+
+<form action="/action_page.php"
+onsubmit="myFunction()">
+
+<label for="Name">Your Name:</label>
+		<input id="Name" name="Name" type="text" placeholder="Your Name" required>
+<br>
+<br>
+<label for="Email">Email:</label>
+		<input id="Email" name="Email" type="text" placeholder="Email" required><br>
+
+
+<p>Message:<br>
+
+		<textarea name="explanation" rows="4" cols="50"> Let us know your thoughts...</textarea>
+		</p>
+		
+<input type="submit" name="Submit">
+</form>
+
+<script>
+function myFunction() {
+alert("Form Submitted");
+}
+</script>
+
+</div>
+
+	</body>
+	
+</html>

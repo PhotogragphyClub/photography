@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Prices and Packages for Joining the Photographers Club</title>
+
+<link rel="stylesheet" href="mystylesheet.css">
+
+<style>
+
+
+#packages {
+font-family: verdana;
+border-collapse: collapse;
+width: 100%
+}
+
+#packages
+{table-layout:fixed;
+}
+
+
+#packages th, #packages td {
+border: 2px solid #A9A9A9;
+padding 8px}
+
+#packages th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: center;
+background-color: #00BFFF;
+color: white;
+}
+
+#packages td {
+text-align: center;}
+
+
+#packages tr:nth-child(even)
+{background-color: #FFFFF0;}
+
+
+
+input[type=submit] {
+background-color: #00BFFF;
+color: white;
+padding: 16px 32px;
+border-radius: 50%
+}
+
+
+</style>
+	</head>
+	
+<body>
+<div>
+<center><h1>Prices/Packages for Joining the Photographers Club</h1></center>
+
+
+<!--Table for different packages -->
+
+
+
+<table id="packages">
+
+<p>Joining the photographers club is a great choice! You will gain exclusive access
+to industry secrets to help you stay ahead of everyone else. How exclusive do you ask?
+Take a look at our packages below!</p>
+
+<tr>
+<th>Packages</th>
+<th>Silver</th>
+<th>Gold</th>
+<th>Platinum (Best Value)</th>
+</tr>
+<tr>
+<td>Price</td>
+<td>$10/mo</td>
+<td>$15/mo</td>
+<td>$30/mo</td>
+</tr>
+<tr>
+<td>Discounts on Photo Editing Software</td>
+<td>X</td>
+<td>X</td>
+<td>√</td>
+</tr>
+<tr>
+<td>Access to Live Instructor Videos</td>
+<td>X</td>
+<td>X</td>
+<td>√</td>
+</tr>
+<tr>
+<td>Exclusive Secrets</td>
+<td>X</td>
+<td>8 Tips per week</td>
+<td>20+ tips directly from industry specialists</td>
+</tr>
+<tr>
+<td>Bonus</td>
+<td>X</td>
+<td>Monthly drawing during signup only for a camera</td>
+<td>Monthly drawing every month for a brand new camera drone</td>
+</tr>
+
+<!-- Radio button to pick a package -->
+
+<tr>
+<b><td>Select a Package</td></b>
+<td><input name="package" type="radio" value="Silver"> Silver</td>
+<td><input name="package" type="radio" value="Gold"> Gold</td>
+<td><input name="package" type="radio" value="Platinum"> Platinum</td>
+</tr>
+
+
+</table>
+<br>
+<input type="submit" name="Submit">
+
+</div>
+
+<br>
+
+
+
+
+
+
+</body>
+
+</html>

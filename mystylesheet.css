@@ -1,0 +1,51 @@
+body {
+	background-color: lightblue;
+}
+
+h1 {
+	color: black;
+	text-align: center;
+	text-decoration: underline;
+	font-size: 50px;
+}
+
+div {
+  background-color: white;
+  padding: 50px 50px 50px 50px;
+  margin: 20px 250px 20px 300px;
+  border: 15px solid black;
+  width: 850px;
+
+  
+}
+
+*{
+font-family: verdana;
+}
+
+
+
+img {
+	border: 5px solid black;
+}
+
+
+li {
+	font-family: verdana;
+	font-size: 20px;
+	list-style-position: outside;
+}
+
+ul {
+	font-family: verdana;
+	font-size: 20px;
+	list-style-position: inside;
+}
+
+ol {
+	font-family: verdana;
+	font-size: 20px;
+	list-style-position: inside;
+}
+
+
